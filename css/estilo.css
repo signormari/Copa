@@ -1,0 +1,164 @@
+#geral{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: Calibri, sans-serif;
+}
+#menu1, #menu2{
+	width: 50%;
+	height: 7vh;
+	background-color: #812951; 
+}
+#menu2{
+	text-align: right;
+}
+#icon{
+	margin-top: 1vh;
+	margin-right: 3vh;
+	width: 14%;
+
+}
+#logo{
+	width: 13%;
+	margin-left: 2vh;
+	margin-top: 0.7vh;
+	border-radius: 0;
+}
+#banner{
+	width: 100%;
+	height: 45vh;
+	text-align: center;
+	background-color: white;
+}
+#banner02{
+	width: 85%;
+	height: 42vh;
+	margin-top: 1vh;
+	box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.25);
+}
+#notícias{
+	width: 70%;
+	height: 80vh;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+#lateral{
+	width: 30%;
+	height: 80vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+#not5{
+	width: 100%;
+	height: 50vh;
+}
+#notpequenas{
+	width: 100%;
+	height: 30vh;
+}
+#not6, #not7{
+	height: 15vh;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+#img-not5{
+	width: 75%;
+	height: 35vh;
+	box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.25);
+}
+#txt-not5{
+	font-size: 3.3vh;
+	margin-left: -2vh;
+	margin-right: 7vh;
+	padding-right: 5vh;
+	text-align: center;
+}
+#not1, #not2, #not3, #not4{
+	width: 50%;
+	height: 40vh;
+	text-align: center;
+}
+#img-not1, #img-not3{
+	width: 70%;
+	height: 30vh;
+	margin-top: 1vh;
+	margin-left: 9vh;
+	filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+ #img-not2, #img-not4{
+ 	width: 70%;
+ 	height: 30vh;
+	margin-top: 1vh;
+	margin-left: -10vh;
+	filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+ }
+.txt-not13{
+	font-size: 2vh;
+	margin-left: 14vh;
+	padding-right: 5vh;
+ }
+.txt-not24{
+	font-size: 2vh;
+	margin-left: 5vh;
+	padding-right: 15vh;
+}
+.txt-not6-7{
+	margin-left: 2vh;
+	padding-right: 27vh;
+	margin-top: 4vh;
+}
+.img-not6-7{
+	width: 25%;
+	height: 10vh;
+	margin-top: 3vh;
+	box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.25);
+}
+img{
+	border-radius: 2vh;
+}
+@media(max-width: 700px){
+	#banner, #notícias{
+		width: 100%; 
+	}
+	#banner{
+		height: 35vh;
+	}
+	#banner02{
+		height: 30vh;
+	}
+	#menu1, #menu2{
+		width: 50%;
+	}
+	#menu2{
+		margin-left: -0.1vh;
+	}
+	#icon, #logo{
+		width: 40%;
+	}
+	#lateral{
+		display: none;
+	}
+	#not1, #not2, #not3, #not4{
+		width: 100%;
+		height: 20vh;
+		margin-top: 2vh;
+		text-align: left;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	#img-not1, #img-not2, #img-not3, #img-not4{
+		width: 35%;
+		height: 15vh;
+		margin-left: 4vh;
+		margin-top: 0;
+	}
+	.txt-not13, .txt-not24{
+		font-size: 2vh;
+		margin-right: 15vh;
+		padding-right: 10vh;
+		margin-left: 2vh;
+
+	}
+}
